@@ -1,0 +1,436 @@
+{
+  "channels": [
+    {
+      "id": "ch_001",
+      "name": "Madonna",
+      "handle": "@madonna",
+      "subscribers": 509283,
+      "verified": true,
+      "description": "Official Madonna YouTube Channel",
+      "creation_date": "2005-10-25",
+      "gradient": ["#1a1a2e", "#16213e", "#0f3460"],
+      "subscribed": false,
+      "avatar_url": "https://m.media-amazon.com/images/M/MV5BMjUwZDM1YjQtNWJiYS00YzkwLWIyMzAtMDRjZjg1MTkxNjU3XkEyXkFqcGc@._V1_.jpg",
+      "banner_url": "https://i.ytimg.com/vi/GpSWmn-mXes/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGH8gSygoMA8=&rs=AOn4CLBv4-VKU-yspKgjpvmM26jHHlzpZA",
+      "identity": {
+        "aesthetic": "pop icon",
+        "tone": "legendary",
+        "upload_pattern": "archive & remaster",
+        "fanbase_name": "Madonna Fans"
+      },
+      "about": {
+        "bio": "Queen of Pop. Official YouTube channel featuring music videos, live performances, and more.",
+        "location": "Worldwide",
+        "links": ["madonna.com", "instagram.com/madonna", "twitter.com/madonna"],
+        "joined": "2005-10-25"
+      }
+    },
+    {
+      "id": "ch_002",
+      "name": "Sade",
+      "handle": "@sade",
+      "subscribers": 1000234,
+      "verified": true,
+      "description": "Official Sade YouTube Channel. Smooth soul.",
+      "creation_date": "2020-02-14",
+      "gradient": ["#2c3e50", "#34495e", "#1a252f"],
+      "subscribed": false,
+      "avatar_url": "https://radioplanetasaudade.com.br/wp-content/uploads/2024/03/sade-adu-singer-hd-wallpaper-preview.jpg",
+      "banner_url": "https://images.squarespace-cdn.com/content/v1/56858337cbced60d3b293aef/1611861264609-TPH56TACE7FO9GP2BMFP/Sade_DiamondLife_crop_16x9.jpg",
+      "identity": {
+        "aesthetic": "smooth soul",
+        "tone": "elegant",
+        "upload_pattern": "occasional",
+        "fanbase_name": "Sade Soldiers"
+      },
+      "about": {
+        "bio": "Official channel of Sade. Timeless music.",
+        "location": "United Kingdom",
+        "links": ["sade.com", "instagram.com/sade"],
+        "joined": "2020-02-14"
+      }
+    },
+    {
+      "id": "ch_003",
+      "name": "Bronx",
+      "handle": "@bronx",
+      "subscribers": 2001847,
+      "verified": true,
+      "description": "Official Bronx Channel. New album 'Color of Pain' out now.",
+      "creation_date": "2023-06-01",
+      "gradient": ["#1e1e1e", "#2a2a2a", "#0d0d0d"],
+      "subscribed": false,
+      "avatar_url": "https://m.media-amazon.com/images/I/61H4amLWTWL._AC_._SX500_SCLZZZZZZZ_.jpg",
+      "banner_url": "https://m.media-amazon.com/images/I/51l+wx8pQGL._AC_._SX500_SCLZZZZZZZ_.jpg",
+      "identity": {
+        "aesthetic": "alternative rock",
+        "tone": "edgy",
+        "upload_pattern": "recent",
+        "fanbase_name": "Bronx Warriors"
+      },
+      "about": {
+        "bio": "Alternative rock band from New York. 'Color of Pain' available now.",
+        "location": "New York, USA",
+        "links": ["bronxband.com", "instagram.com/bronx", "twitter.com/bronx"],
+        "joined": "2023-06-01"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid_001",
+      "type": "video",
+      "title": "Madonna - Holiday (Live from Top of the Pops 1984) (Official Video)",
+      "channel_id": "ch_001",
+      "views": 1928473,
+      "likes": 100234,
+      "dislikes": 22156,
+      "upload_date": "2022-07-28",
+      "duration": "4:08",
+      "description": "You're watching the official HD video of Madonna performing 'Holiday' live on BBC's Top of the Pops in 1984.",
+      "thumbnail_url": "https://todayinmadonnahistory.com/wp-content/uploads/2015/01/holiday-16-peak-billboard-solid-gold-1.jpg",
+      "embed_url": "https://www.youtube.com/embed/Fq_khJD1WVQ",
+      "gradient": ["#ff6b6b", "#ee5a24", "#f0932b"],
+      "liked": false,
+      "engagement": { "velocity": 2.83, "like_ratio": 0.052, "trend": "steady" }
+    },
+    {
+      "id": "vid_002",
+      "type": "video",
+      "title": "Sade - Smooth Operator - Official",
+      "channel_id": "ch_002",
+      "views": 98394392,
+      "likes": 1892345,
+      "dislikes": 34218,
+      "upload_date": "2025-08-22",
+      "age": "8 meses",
+      "duration": "4:16",
+      "description": "Official video for Smooth Operator by Sade. Digitally remastered and upscaled to Full HD.",
+      "thumbnail_url": "https://i.ytimg.com/vi/4TYv2PhG89A/maxresdefault.jpg",
+      "embed_url": "https://www.youtube.com/embed/qQ_GNl667YE",
+      "gradient": ["#8e44ad", "#9b59b6", "#6c3483"],
+      "liked": false,
+      "engagement": { "velocity": 0.31, "like_ratio": 0.019, "trend": "slow" }
+    },
+    {
+      "id": "vid_003",
+      "type": "video",
+      "title": "Madonna - La Isla Bonita (Official Video)",
+      "channel_id": "ch_001",
+      "views": 390394239,
+      "likes": 12345678,
+      "dislikes": 156789,
+      "upload_date": "2025-06-15",
+      "age": "10 meses",
+      "duration": "4:02",
+      "description": "Official music video for 'La Isla Bonita' by Madonna. Remastered in stunning HD. Celebrando 390 milhões de views!",
+      "thumbnail_url": "https://i.ytimg.com/vi/zpzdgmqIHOQ/maxresdefault.jpg",
+      "embed_url": "https://www.youtube.com/embed/zpzdgmqIHOQ",
+      "gradient": ["#e8a87c", "#d4845a", "#c06038"],
+      "liked": false,
+      "engagement": { "velocity": 4.82, "like_ratio": 0.031, "trend": "growing" }
+    },
+    {
+      "id": "vid_004",
+      "type": "video",
+      "title": "Madonna - Like A Virgin (Official Video)",
+      "channel_id": "ch_001",
+      "views": 178234567,
+      "likes": 3456789,
+      "dislikes": 89123,
+      "upload_date": "2024-11-10",
+      "age": "1 ano",
+      "duration": "3:38",
+      "description": "Official music video for 'Like A Virgin' by Madonna. From the album 'Like A Virgin' (1984). Remastered in HD.",
+      "thumbnail_url": "https://i.ytimg.com/vi/s__rX_WL100/maxresdefault.jpg",
+      "embed_url": "https://www.youtube.com/embed/s__rX_WL100",
+      "gradient": ["#ff6b9d", "#ff4081", "#e91e63"],
+      "liked": false,
+      "engagement": { "velocity": 3.21, "like_ratio": 0.019, "trend": "growing" }
+    },
+    {
+      "id": "vid_005",
+      "type": "video",
+      "title": "Madonna - Papa Don't Preach (Official Video) [HD]",
+      "channel_id": "ch_001",
+      "views": 145678234,
+      "likes": 2891234,
+      "dislikes": 67891,
+      "upload_date": "2024-09-05",
+      "age": "1 ano",
+      "duration": "4:29",
+      "description": "Official HD music video for 'Papa Don't Preach' by Madonna. From the album 'True Blue' (1986).",
+      "thumbnail_url": "https://i.ytimg.com/vi/G333Is7VPOg/maxresdefault.jpg",
+      "embed_url": "https://www.youtube.com/embed/G333Is7VPOg",
+      "gradient": ["#9b59b6", "#8e44ad", "#6c3483"],
+      "liked": false,
+      "engagement": { "velocity": 2.94, "like_ratio": 0.019, "trend": "steady" }
+    }
+  ],
+  "shorts": [],
+  "music": [
+    {
+      "id": "mus_002",
+      "type": "album",
+      "title": "Diamond Life",
+      "artist": "Sade",
+      "album": "Diamond Life",
+      "is_single": false,
+      "channel_id": "ch_002",
+      "views": 610394293,
+      "likes": 8912345,
+      "dislikes": 156789,
+      "duration": "44:28",
+      "upload_date": "2025-08-22",
+      "release_date": "2025-08-22",
+      "age": "8 meses",
+      "thumbnail_url": "https://i.scdn.co/image/ab67616d0000b273ad27e16c5f844ea1ad6797cd",
+      "gradient": ["#2c3e50", "#34495e", "#1a252f"],
+      "genre": "Soul / Smooth Jazz",
+      "description": "Debut studio album by Sade, released in 1984. Featuring timeless classics.",
+      "credits": {
+        "label": "Epic Records",
+        "producer": "Robin Millar",
+        "studio": "Power Plant Studios, London"
+      },
+      "tracks": [
+        { "id": "trk_001", "title": "Smooth Operator", "duration": "4:58", "plays": 251234567, "likes": 3214567, "embed_url": "https://www.youtube.com/embed/OPgmQc3OkFs" },
+        { "id": "trk_002", "title": "Your Love Is King", "duration": "3:39", "plays": 112345678, "likes": 2112345, "embed_url": "https://www.youtube.com/embed/TSXpYUPl1Hg" },
+        { "id": "trk_003", "title": "Hang on to Your Love", "duration": "5:58", "plays": 74123678, "likes": 1519876, "embed_url": "https://www.youtube.com/embed/z2t9RmOe4K0" },
+        { "id": "trk_004", "title": "Frankie's First Affair", "duration": "4:38", "plays": 41234567, "likes": 894567, "embed_url": "https://www.youtube.com/embed/ZU6JhRNWj7o" },
+        { "id": "trk_005", "title": "When Am I Going to Make a Living", "duration": "3:27", "plays": 38123456, "likes": 726543, "embed_url": "https://www.youtube.com/embed/PtDx82aOuBo" },
+        { "id": "trk_006", "title": "Cherry Pie", "duration": "6:20", "plays": 29123456, "likes": 543218, "embed_url": "https://www.youtube.com/embed/0kTDSRSqbio" },
+        { "id": "trk_007", "title": "Sally", "duration": "5:23", "plays": 26123456, "likes": 482134, "embed_url": "https://www.youtube.com/embed/K8N3gfuhdZQ" },
+        { "id": "trk_008", "title": "I Will Be Your Friend", "duration": "4:45", "plays": 32134567, "likes": 612345, "embed_url": "https://www.youtube.com/embed/uB-IwYVLVDA" },
+        { "id": "trk_009", "title": "Why Can't We Live Together", "duration": "5:27", "plays": 24123678, "likes": 412389, "embed_url": "https://www.youtube.com/embed/iQI2-BJPA3I" }
+      ],
+      "liked": false,
+      "engagement": { "velocity": 2.14, "like_ratio": 0.014, "trend": "steady" }
+    },
+    {
+      "id": "mus_003",
+      "type": "album",
+      "title": "Color of Pain",
+      "artist": "Bronx",
+      "album": "Color of Pain",
+      "is_single": false,
+      "channel_id": "ch_003",
+      "views": 1304304009,
+      "likes": 48912345,
+      "dislikes": 412389,
+      "duration": "52:14",
+      "upload_date": "2025-12-22",
+      "release_date": "2025-12-22",
+      "age": "4 meses",
+      "release_status": "released",
+      "thumbnail_url": "https://m.media-amazon.com/images/I/61H4amLWTWL._AC_._SX500_SCLZZZZZZZ_.jpg",
+      "gradient": ["#4a0000", "#660000", "#330000"],
+      "genre": "Alternative Rock",
+      "subgenres": ["Post-Grunge", "Indie Rock", "Soul"],
+      "description": "The highly anticipated debut album from Bronx. A 14-track journey through love, loss, and redemption. Featuring collaborations with Stevie Wonder and Sade. AGORA COM MAIS DE 1.3 BILHÃO DE STREAMS!",
+      "credits": {
+        "label": "Dark Horse Records",
+        "producer": "Dave Sardy, Bronx",
+        "mixer": "Spike Stent",
+        "mastering": "Sterling Sound",
+        "studio": "Electric Lady Studios, NYC"
+      },
+      "tracks": [
+        { "id": "trk_010", "title": "warm", "duration": "2:37", "plays": 124123890, "likes": 5201345 },
+        { "id": "trk_011", "title": "sweetheart", "duration": "3:31", "plays": 168345678, "likes": 6452367 },
+        { "id": "trk_012", "title": "off the couch", "duration": "3:42", "plays": 82123456, "likes": 2981234 },
+        { "id": "trk_013", "title": "will you still love me?", "duration": "4:01", "plays": 148234567, "likes": 5321456 },
+        { "id": "trk_014", "title": "never meant to cause trouble", "duration": "3:12", "plays": 63123456, "likes": 2781234 },
+        { "id": "trk_015", "title": "puzzle", "duration": "3:36", "plays": 58234567, "likes": 2691234 },
+        { "id": "trk_016", "title": "clockwork", "duration": "3:22", "plays": 92123456, "likes": 3911234 },
+        { "id": "trk_017", "title": "density", "duration": "4:06", "plays": 56123456, "likes": 2621345 },
+        { "id": "trk_018", "title": "color of pain", "duration": "5:01", "plays": 218123456, "likes": 6682345, "feat": "Stevie Wonder" },
+        { "id": "trk_019", "title": "trophies aren't made of gold", "duration": "4:21", "plays": 59123456, "likes": 2581234 },
+        { "id": "trk_020", "title": "daisies might die", "duration": "3:56", "plays": 81234567, "likes": 2721345 },
+        { "id": "trk_021", "title": "that brightness in us", "duration": "3:57", "plays": 64123456, "likes": 2671234 },
+        { "id": "trk_022", "title": "skyfall", "duration": "2:59", "plays": 128123456, "likes": 3891234, "feat": "Sade" },
+        { "id": "trk_023", "title": "xoxo, goodbye", "duration": "1:56", "plays": 58123456, "likes": 2511234 }
+      ],
+      "liked": false,
+      "engagement": { "velocity": 8.94, "like_ratio": 0.037, "trend": "viral" }
+    },
+    {
+      "id": "mus_005",
+      "type": "album",
+      "title": "Material Girl",
+      "artist": "Madonna",
+      "album": "Material Girl",
+      "is_single": false,
+      "channel_id": "ch_001",
+      "views": 590394293,
+      "likes": 12851234,
+      "dislikes": 234189,
+      "duration": "45:23",
+      "upload_date": "2026-04-19",
+      "release_date": "2026-04-19",
+      "age": "3 dias",
+      "release_status": "released",
+      "thumbnail_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5eY4ipO1QY5sZ_vDtGzHMcbktdin6nkeM280-52_dn6nQb2073lKwYH28I4CNI3tfiYzO-6CkzI6M7UGJk5MMVgs89JANX_xmmwL108nazwe2oQpj3bsXWrZGDeb4QbSBAKOLIPF1P6EAL_F7MmG0WcMCLjYJFCqV6k2u6D6ogyXPrIfAW7TqgibZWKxN/s1024/sem%20tipo%202.png",
+      "gradient": ["#ff69b4", "#ff1493", "#c71585"],
+      "genre": "Pop",
+      "subgenres": ["Dance-Pop", "80s Pop"],
+      "description": "The essential Madonna collection featuring her biggest hits from the 80s. Remastered in stunning HD.",
+      "credits": {
+        "label": "Sire Records / Warner Records",
+        "producer": "Nile Rodgers, Madonna, Stephen Bray",
+        "mixer": "Various",
+        "mastering": "Sterling Sound",
+        "studio": "Various"
+      },
+      "tracks": [
+        { "id": "trk_024", "title": "Burning Up", "duration": "3:45", "plays": 48512345, "likes": 1268345, "embed_url": "https://www.youtube.com/embed/pufec0Hps00" },
+        { "id": "trk_025", "title": "Borderline", "duration": "4:00", "plays": 64512345, "likes": 2320456, "embed_url": "https://www.youtube.com/embed/rSaC-YbSDpo" },
+        { "id": "trk_026", "title": "I Know It", "duration": "3:47", "plays": 22034567, "likes": 895678, "embed_url": "https://www.youtube.com/embed/e1LZbE-rovw" },
+        { "id": "trk_027", "title": "Holiday", "duration": "4:01", "plays": 88512345, "likes": 2520345, "embed_url": "https://www.youtube.com/embed/p7cjMjgPHzM" },
+        { "id": "trk_028", "title": "Angel", "duration": "3:56", "plays": 36512345, "likes": 1245678, "embed_url": "https://www.youtube.com/embed/J7W3oVF4O1Q" },
+        { "id": "trk_029", "title": "Material Girl", "duration": "4:04", "plays": 99812345, "likes": 3510345, "embed_url": "https://www.youtube.com/embed/6p-lDYPR2P8" },
+        { "id": "trk_030", "title": "Dress You Up", "duration": "4:02", "plays": 44212345, "likes": 1228456, "embed_url": "https://www.youtube.com/embed/mWtpd8mS5jw" },
+        { "id": "trk_031", "title": "Like a Virgin", "duration": "3:38", "plays": 72512345, "likes": 2345678, "embed_url": "https://www.youtube.com/embed/s__rX_WL100" },
+        { "id": "trk_032", "title": "Papa Don't Preach", "duration": "4:29", "plays": 37512345, "likes": 1258345, "embed_url": "https://www.youtube.com/embed/G333Is7VPOg" },
+        { "id": "trk_033", "title": "Open Your Heart", "duration": "4:13", "plays": 33512345, "likes": 1222456, "embed_url": "https://www.youtube.com/embed/snsTmi9N9Gs" },
+        { "id": "trk_034", "title": "Live to Tell", "duration": "5:52", "plays": 19812345, "likes": 889345, "embed_url": "https://www.youtube.com/embed/IzAO9A9GjgI" },
+        { "id": "trk_035", "title": "La Isla Bonita", "duration": "4:02", "plays": 46512345, "likes": 1252456, "embed_url": "https://www.youtube.com/embed/zpzdgmqIHOQ" }
+      ],
+      "liked": false,
+      "engagement": { "velocity": 9.24, "like_ratio": 0.021, "trend": "viral" }
+    }
+  ],
+  "films": [
+    {
+      "id": "film_001",
+      "type": "film",
+      "title": "Diamond Life (Filme)",
+      "channel_id": "ch_002",
+      "director": "Sade Adu",
+      "cast": ["Sade", "Stuart Matthewman", "Paul S. Denman", "Andrew Hale"],
+      "year": 2026,
+      "runtime_minutes": 92,
+      "rating": 8.7,
+      "genre": ["Documentário", "Musical"],
+      "description": "Um documentário íntimo sobre a criação do álbum icônico 'Diamond Life' de Sade. Acompanhe os bastidores, entrevistas exclusivas e performances ao vivo que marcaram uma geração.",
+      "thumbnail_url": "https://i.pinimg.com/736x/3e/f2/57/3ef257b5f4f8932733c473aa04478134.jpg",
+      "gradient": ["#1a1a2e", "#16213e", "#0f3460"],
+      "views": 92394,
+      "likes": 4823,
+      "dislikes": 127,
+      "upload_date": "2026-04-10",
+      "age": "12 dias",
+      "duration": "1:32:00",
+      "embed_url": "https://www.youtube.com/embed/8heg7k0yVzA",
+      "liked": false,
+      "language": "English",
+      "subtitles": ["EN", "PT", "ES", "FR"],
+      "engagement": { "velocity": 0.42, "like_ratio": 0.052, "trend": "slow" }
+    }
+  ],
+  "live_streams": [
+    {
+      "id": "live_001",
+      "title": "JAZZ SADE IN LIVE 24H",
+      "channel_id": "ch_002",
+      "viewers": 6312,
+      "thumbnail_url": "https://i.ytimg.com/vi/t8j9uwhUeek/maxresdefault.jpg",
+      "embed_url": "https://www.youtube.com/embed/t8j9uwhUeek",
+      "gradient": ["#1a1a2e", "#16213e", "#0f3460"],
+      "category": "Música",
+      "started_ago": "há 2h"
+    }
+  ],
+  "playlists": [],
+  "comments": {
+    "vid_001": [
+      { "user": "80smusiclover", "text": "This performance is pure joy!", "likes": 3412, "ts": "1 year ago" }
+    ],
+    "vid_002": [
+      { "user": "smoothjazz_fan", "text": "98 milhões em 8 meses... crescimento lento mas constante. Um clássico que nunca morre 💎", "likes": 3421, "ts": "1 month ago" }
+    ],
+    "vid_003": [
+      { "user": "latinpopfan", "text": "390 MILHÕES! La Isla Bonita é simplesmente atemporal 💃🌺", "likes": 45231, "ts": "2 days ago" }
+    ],
+    "vid_004": [
+      { "user": "80sforever", "text": "Like a Virgin definiu uma geração. Madonna é rainha 👑", "likes": 28912, "ts": "2 weeks ago" }
+    ],
+    "vid_005": [
+      { "user": "madonnafan4life", "text": "Papa Don't Preach é uma das músicas mais corajosas da carreira dela. Atemporal.", "likes": 18765, "ts": "3 weeks ago" }
+    ],
+    "mus_003": [
+      { "user": "rockfan_ny", "text": "1.3 BILHÃO! Color of Pain é simplesmente histórico. Álbum da década! 🔥👑", "likes": 89412, "ts": "2 days ago" },
+      { "user": "musiccritic_global", "text": "O Bronx redefiniu o rock alternativo com esse álbum. 1.3B é totalmente merecido.", "likes": 67234, "ts": "1 week ago" }
+    ],
+    "mus_005": [
+      { "user": "madonnafan4life", "text": "3 dias e já é o álbum mais ouvido da década! Material Girl é hino 👑", "likes": 12812, "ts": "2 hours ago" }
+    ],
+    "film_001": [
+      { "user": "sade_soldier", "text": "Que documentário lindo! Sade é simplesmente divina 💎", "likes": 892, "ts": "5 days ago" }
+    ]
+  },
+  "channel_stats": {
+    "ch_001": {
+      "total_views": 1323140806,
+      "total_likes": 32612269,
+      "videos_count": 4,
+      "music_count": 1,
+      "films_count": 0,
+      "singles_count": 0,
+      "albums_count": 1,
+      "engagement_rate": 0.024
+    },
+    "ch_002": {
+      "total_views": 708880987,
+      "total_likes": 10808268,
+      "videos_count": 1,
+      "music_count": 1,
+      "films_count": 1,
+      "albums_count": 1,
+      "singles_count": 0,
+      "engagement_rate": 0.015
+    },
+    "ch_003": {
+      "total_views": 1304304009,
+      "total_likes": 48912345,
+      "videos_count": 0,
+      "music_count": 1,
+      "films_count": 0,
+      "albums_count": 1,
+      "singles_count": 0,
+      "engagement_rate": 0.037
+    }
+  },
+  "trending": ["mus_003", "vid_003", "mus_005", "vid_004", "vid_005", "mus_002", "film_001", "vid_002"],
+  "trending_music": [
+    "mus_003",
+    "mus_005",
+    "trk_018",
+    "trk_011",
+    "trk_035",
+    "trk_029",
+    "trk_031",
+    "trk_027",
+    "trk_001",
+    "trk_022"
+  ],
+  "trending_films": ["film_001"],
+  "trending_shorts": [],
+  "algorithm": {
+    "weights": { "retention": 0.40, "likes": 0.25, "subscribers": 0.20, "recent_engagement": 0.15 },
+    "viralization_threshold": 0.003,
+    "velocity_boost_viral": 3.0,
+    "velocity_boost_growing": 1.5
+  },
+  "tick_system": {
+    "interval": "5s",
+    "update": ["views", "likes", "music_streams", "live_viewers", "film_views"],
+    "persist": true
+  },
+  "live_simulation": {
+    "active": true,
+    "boost_multiplier": 2.0,
+    "viewer_fluctuation_range": 150
+  },
+  "logs": []
+}
