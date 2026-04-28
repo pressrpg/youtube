@@ -834,6 +834,110 @@ svg.yt-icon{fill:var(--text);width:24px;height:24px;flex-shrink:0}
   gap:20px;
 }
 
+/* ── ARTISTS PAGE ── */
+.artists-page{max-width:1100px;margin:0 auto;padding:32px 24px 48px}
+@media(max-width:600px){.artists-page{padding:20px 12px 40px}}
+
+/* Hero card */
+.ap-hero{
+  position:relative;overflow:hidden;border-radius:24px;margin-bottom:40px;
+  min-height:320px;display:flex;align-items:flex-end;cursor:pointer;
+  background:#111;
+  box-shadow:0 20px 60px rgba(0,0,0,0.6);
+}
+@media(max-width:600px){.ap-hero{min-height:220px;border-radius:16px;margin-bottom:28px}}
+.ap-hero-bg{
+  position:absolute;inset:0;background-size:cover;background-position:center;
+  filter:blur(28px) brightness(0.28) saturate(1.6);transform:scale(1.12);
+}
+.ap-hero-img{
+  position:absolute;inset:0;
+  display:flex;align-items:center;justify-content:flex-end;padding-right:40px;
+}
+@media(max-width:600px){.ap-hero-img{padding-right:16px}}
+.ap-hero-avatar{
+  width:160px;height:160px;border-radius:50%;
+  overflow:hidden;flex-shrink:0;
+  border:3px solid rgba(255,255,255,0.15);
+  box-shadow:0 8px 40px rgba(0,0,0,0.6);
+}
+@media(max-width:600px){.ap-hero-avatar{width:90px;height:90px}}
+.ap-hero-grad{
+  position:absolute;inset:0;
+  background:linear-gradient(105deg,rgba(0,0,0,0.92) 35%,rgba(0,0,0,0.2) 75%,transparent 100%),
+             linear-gradient(to top,rgba(0,0,0,0.5) 0%,transparent 50%);
+}
+.ap-hero-body{
+  position:relative;z-index:2;padding:36px 40px;flex:1;
+  max-width:calc(100% - 220px);
+}
+@media(max-width:600px){.ap-hero-body{padding:20px 16px;max-width:calc(100% - 110px)}}
+.ap-hero-label{
+  font-size:11px;font-weight:700;letter-spacing:1.5px;
+  text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:10px;
+}
+.ap-hero-name{
+  font-size:clamp(24px,4vw,40px);font-weight:900;line-height:1.1;
+  color:#fff;margin-bottom:14px;
+}
+.ap-hero-stats{display:flex;gap:28px;flex-wrap:wrap;margin-bottom:18px}
+.ap-hero-stat-val{font-size:clamp(18px,2.5vw,26px);font-weight:800;color:#fff;line-height:1}
+.ap-hero-stat-lbl{font-size:10px;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.8px;margin-top:3px}
+.ap-hero-tags{display:flex;gap:6px;flex-wrap:wrap}
+.ap-hero-tag{
+  background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.75);
+  padding:4px 12px;border-radius:20px;font-size:11px;font-weight:600;
+  backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,0.08);
+}
+.ap-hero-tag.verified{color:#4e9fff;background:rgba(78,159,255,0.12);border-color:rgba(78,159,255,0.2)}
+
+/* Section header */
+.ap-section-header{
+  display:flex;align-items:baseline;justify-content:space-between;
+  margin-bottom:20px;padding-bottom:12px;
+  border-bottom:1px solid rgba(255,255,255,0.06);
+}
+.ap-section-title{font-size:18px;font-weight:800;letter-spacing:-0.3px}
+.ap-section-count{font-size:12px;color:var(--muted)}
+
+/* Rank list */
+.ap-rank-list{display:flex;flex-direction:column;gap:2px}
+.ap-rank-row{
+  display:grid;
+  grid-template-columns:44px 56px 1fr 100px;
+  gap:14px;align-items:center;
+  padding:12px 14px;border-radius:14px;
+  cursor:pointer;transition:background 0.12s,transform 0.12s;
+}
+.ap-rank-row:hover{background:rgba(255,255,255,0.055);transform:translateX(3px)}
+@media(max-width:600px){
+  .ap-rank-row{grid-template-columns:36px 44px 1fr 80px;gap:10px;padding:10px 8px}
+}
+.ap-rank-num{
+  font-size:15px;font-weight:800;text-align:center;
+  font-variant-numeric:tabular-nums;
+}
+.ap-rank-avatar{
+  width:56px;height:56px;border-radius:50%;overflow:hidden;
+  position:relative;flex-shrink:0;
+  border:2px solid transparent;
+  transition:border-color 0.2s;
+}
+@media(max-width:600px){.ap-rank-avatar{width:44px;height:44px}}
+.ap-rank-row:hover .ap-rank-avatar{border-color:rgba(255,255,255,0.2)}
+.ap-rank-info{min-width:0}
+.ap-rank-name{
+  font-size:14px;font-weight:700;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  margin-bottom:3px;
+}
+.ap-rank-sub{font-size:11px;color:var(--muted);margin-bottom:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ap-rank-bar-wrap{height:3px;background:rgba(255,255,255,0.08);border-radius:2px;overflow:hidden}
+.ap-rank-bar{height:100%;border-radius:2px;transition:width 0.7s cubic-bezier(0.4,0,0.2,1)}
+.ap-rank-views{text-align:right;min-width:0}
+.ap-rank-views-num{font-size:13px;font-weight:700;white-space:nowrap}
+.ap-rank-views-sub{font-size:11px;color:var(--muted);margin-top:2px;white-space:nowrap}
+
 /* ── MOBILE RESPONSIVE ── */
 @media(max-width:768px){
   :root{--sidebar-w:0px;--sidebar-mini:0px}
@@ -1201,6 +1305,10 @@ svg.yt-icon{fill:var(--text);width:24px;height:24px;flex-shrink:0}
       <span class="icon icon-svg"><svg class="yt-icon" style="width:22px;height:22px" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
       <span class="sidebar-label">Ao vivo</span>
     </a>
+    <a class="sidebar-item" id="si-artists" onclick="navigate('artists')">
+      <span class="icon icon-svg"><svg class="yt-icon" style="width:22px;height:22px" viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg></span>
+      <span class="sidebar-label">Artistas</span>
+    </a>
   </div>
 </aside>
 
@@ -1330,6 +1438,11 @@ svg.yt-icon{fill:var(--text);width:24px;height:24px;flex-shrink:0}
   <!-- PULSE CHARTS VIEW -->
   <div id="pulse-view" style="display:none">
     <div id="pulse-content"></div>
+  </div>
+
+  <!-- ARTISTS VIEW -->
+  <div id="artists-view" style="display:none">
+    <div id="artists-content"></div>
   </div>
 
 </main>
@@ -2018,7 +2131,7 @@ function navigate(view,id){
 }
 
 function _navigateTo(view,id,tab,updateHist){
-  ['home-view','player-view','channel-view','search-view','live-view','explore-view','album-view','subscriptions-view','shorts-view','pulse-view'].forEach(v=>{
+  ['home-view','player-view','channel-view','search-view','live-view','explore-view','album-view','subscriptions-view','shorts-view','pulse-view','artists-view'].forEach(v=>{
     document.getElementById(v).style.display='none';
   });
   // Close clip mode if switching away
@@ -2081,6 +2194,12 @@ function _navigateTo(view,id,tab,updateHist){
     document.getElementById('pulse-view').style.display='block';
     document.getElementById('si-pulse').classList.add('active');
     renderPulseCharts();
+    window.scrollTo(0,0);
+  } else if(view==='artists'){
+    document.getElementById('artists-view').style.display='block';
+    const siA=document.getElementById('si-artists');
+    if(siA) siA.classList.add('active');
+    renderArtistsPage();
     window.scrollTo(0,0);
   }
   updateBackBtn();
@@ -4552,6 +4671,175 @@ function setPulseCategory(c){
 
 // Stop pulse when leaving view (navigation)
 const _origNavigate=navigate;
+
+
+// ══════════════════════════════════════════════
+// ARTISTS PAGE
+// ══════════════════════════════════════════════
+function renderArtistsPage(){
+  const el=document.getElementById('artists-content');
+  if(!el)return;
+
+  // Agrega dados de todos os canais/artistas
+  const map={};
+
+  function add(key,name,views,likes,thumb,grad,chId,type){
+    if(!key)return;
+    if(!map[key]) map[key]={name,views:0,likes:0,thumb,grad,chId,count:0,types:new Set()};
+    map[key].views+=views||0;
+    map[key].likes+=likes||0;
+    map[key].count++;
+    map[key].types.add(type);
+    if(!map[key].thumb&&thumb) map[key].thumb=thumb;
+    if(!map[key].grad&&grad)   map[key].grad=grad;
+  }
+
+  (DB.videos||[]).forEach(v=>{
+    const ch=getChannel(v.channel_id);if(!ch)return;
+    add(v.channel_id,ch.name,v.views,v.likes,ch.avatar_url,ch.gradient,v.channel_id,'Vídeo');
+  });
+  (DB.music||[]).forEach(m=>{
+    const ch=getChannel(m.channel_id);
+    const name=m.artist||(ch?ch.name:m.channel_id);
+    add(m.channel_id,name,m.views,m.likes,m.thumbnail_url||(ch?ch.avatar_url:null),m.gradient||(ch?ch.gradient:null),m.channel_id,'Música');
+    if(m.type==='album'&&m.tracks){
+      m.tracks.forEach((_,i)=>{
+        const obj=_trackCache[`${m.id}_t${i}`];
+        if(obj) add(m.channel_id,name,obj.views||0,0,null,null,m.channel_id,'Música');
+      });
+    }
+  });
+  (DB.films||[]).forEach(f=>{
+    const ch=getChannel(f.channel_id);
+    add(f.channel_id+'_f'+(f.director||''),f.director||(ch?ch.name:''),f.views,f.likes,f.thumbnail_url,f.gradient,f.channel_id,'Filme');
+  });
+  (DB.shorts||[]).forEach(s=>{
+    const ch=getChannel(s.channel_id);if(!ch)return;
+    add(s.channel_id,ch.name,s.views,s.likes||0,ch.avatar_url,ch.gradient,s.channel_id,'Short');
+  });
+
+  const ranked=Object.values(map).sort((a,b)=>b.views-a.views);
+  if(!ranked.length){
+    el.innerHTML='<div class="artists-page"><p style="color:var(--muted)">Nenhum dado.</p></div>';
+    return;
+  }
+
+  const leader=ranked[0];
+  const leaderCh=getChannel(leader.chId);
+  const leaderGrad=leader.grad||(leaderCh?leaderCh.gradient:['#111','#222']);
+  const leaderThumb=leader.thumb||(leaderCh&&leaderCh.avatar_url?leaderCh.avatar_url:null);
+  const maxViews=leader.views;
+
+  // Acento de cor baseado no gradiente do líder
+  const accentColor=leaderGrad[0]||'#ff0000';
+
+  el.innerHTML=`
+<div class="artists-page fade-in">
+
+  <!-- ═══════ HERO ═══════ -->
+  <div class="ap-hero" onclick="navigate('channel','${leader.chId}')">
+
+    <!-- BG borrado -->
+    <div class="ap-hero-bg" ${leaderThumb?`style="background-image:url(${leaderThumb})"`:`style="background:${gradientCSS(leaderGrad)}"`}></div>
+
+    <!-- Avatar grande à direita -->
+    <div class="ap-hero-img">
+      <div class="ap-hero-avatar">
+        ${leaderThumb
+          ?`<img src="${leaderThumb}" style="width:100%;height:100%;object-fit:cover" onerror="this.parentNode.style.background='${gradientCSS(leaderGrad)}';this.remove()">`
+          :`<div style="width:100%;height:100%;background:${gradientCSS(leaderGrad)};display:flex;align-items:center;justify-content:center;font-size:52px;font-weight:900;color:#fff">${leader.name[0].toUpperCase()}</div>`
+        }
+      </div>
+    </div>
+
+    <!-- Gradiente sobre tudo -->
+    <div class="ap-hero-grad"></div>
+
+    <!-- Badge #1 -->
+    <div style="position:absolute;top:20px;left:24px;background:rgba(0,0,0,0.5);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.1);border-radius:30px;padding:5px 14px;display:flex;align-items:center;gap:7px">
+      <span style="width:7px;height:7px;border-radius:50%;background:${accentColor};display:inline-block;box-shadow:0 0 8px ${accentColor}"></span>
+      <span style="font-size:11px;font-weight:700;color:rgba(255,255,255,0.8);letter-spacing:1px;text-transform:uppercase">Artista #1</span>
+    </div>
+
+    <!-- Conteúdo -->
+    <div class="ap-hero-body">
+      <div class="ap-hero-label">Mais ouvido da plataforma</div>
+      <div class="ap-hero-name">${leader.name}</div>
+      <div class="ap-hero-stats">
+        <div>
+          <div class="ap-hero-stat-val">${fmtNum(leader.views)}</div>
+          <div class="ap-hero-stat-lbl">Views totais</div>
+        </div>
+        <div>
+          <div class="ap-hero-stat-val">${fmtNum(leader.likes)}</div>
+          <div class="ap-hero-stat-lbl">Curtidas</div>
+        </div>
+        <div>
+          <div class="ap-hero-stat-val">${leader.count}</div>
+          <div class="ap-hero-stat-lbl">Conteúdos</div>
+        </div>
+      </div>
+      <div class="ap-hero-tags">
+        ${[...leader.types].map(t=>`<span class="ap-hero-tag">${t}</span>`).join('')}
+        ${leaderCh&&leaderCh.verified?`<span class="ap-hero-tag verified">✓ Verificado</span>`:''}
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════ RANKING ═══════ -->
+  <div class="ap-section-header">
+    <div class="ap-section-title">Ranking de Artistas</div>
+    <div class="ap-section-count">${ranked.length} artistas · por visualizações</div>
+  </div>
+
+  <div class="ap-rank-list">
+    ${ranked.map((artist,i)=>{
+      const ch=getChannel(artist.chId);
+      const thumb=artist.thumb||(ch&&ch.avatar_url?ch.avatar_url:null);
+      const grad=artist.grad||(ch?ch.gradient:['#333','#555']);
+      const pct=Math.max(4,Math.round((artist.views/maxViews)*100));
+      const likeRatio=artist.views>0?((artist.likes/artist.views)*100).toFixed(1):'0.0';
+      const types=[...artist.types].join(' · ');
+
+      // Cores do ranking (sem medalhas)
+      const numColor=i===0?'#f9ca24':i===1?'#a0a0a0':i===2?'#b87333':'var(--muted)';
+      const barColor=i===0?accentColor:i<3?'#3ea6ff':i<10?'#444':'#2a2a2a';
+      const nameBold=i<3?700:500;
+
+      return`<div class="ap-rank-row" onclick="navigate('channel','${artist.chId}')">
+
+        <!-- Número -->
+        <div class="ap-rank-num" style="color:${numColor}">${i+1}</div>
+
+        <!-- Avatar -->
+        <div class="ap-rank-avatar">
+          ${thumb?`<img src="${thumb}" style="width:100%;height:100%;object-fit:cover" loading="lazy" onerror="this.style.display='none'">`:'' }
+          <div style="position:absolute;inset:0;background:${gradientCSS(grad)};display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700;color:#fff;z-index:${thumb?-1:1}">${artist.name[0].toUpperCase()}</div>
+        </div>
+
+        <!-- Info -->
+        <div class="ap-rank-info">
+          <div class="ap-rank-name" style="font-weight:${nameBold}">
+            ${artist.name}${ch&&ch.verified?verifiedSVG(13):''}
+          </div>
+          <div class="ap-rank-sub">${types} · ${artist.count} conteúdos · ❤ ${likeRatio}% eng.</div>
+          <div class="ap-rank-bar-wrap">
+            <div class="ap-rank-bar" style="width:${pct}%;background:${barColor}"></div>
+          </div>
+        </div>
+
+        <!-- Views -->
+        <div class="ap-rank-views">
+          <div class="ap-rank-views-num" style="color:${i===0?'#f9ca24':'var(--text)'}">${fmtNum(artist.views)}</div>
+          <div class="ap-rank-views-sub">${fmtNum(artist.likes)} ❤</div>
+        </div>
+
+      </div>`;
+    }).join('')}
+  </div>
+
+</div>`;
+}
 
 // ══════════════════════════════════════════════
 // INIT
