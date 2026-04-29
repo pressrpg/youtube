@@ -4,7 +4,7 @@
       "id": "ch_001",
       "name": "Madonna",
       "handle": "@madonna",
-      "subscribers": 10509283,
+      "subscribers": 509283,
       "verified": true,
       "description": "Official Madonna YouTube Channel",
       "creation_date": "2005-10-25",
@@ -298,48 +298,6 @@
       ],
       "liked": false,
       "engagement": { "velocity": 9.24, "like_ratio": 0.021, "trend": "viral" }
-    },
-    {
-      "id": "mus_006",
-      "type": "single",
-      "title": "Like a Prayer",
-      "artist": "Madonna",
-      "album": "Like a Prayer",
-      "is_single": true,
-      "channel_id": "ch_001",
-      "views": 285000000,
-      "likes": 7200000,
-      "dislikes": 98000,
-      "duration": "7:35",
-      "upload_date": "2026-04-29",
-      "release_date": "1989-03-03",
-      "age": "hoje",
-      "release_status": "released",
-      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/08/Capa_alternativa_de_Like_a_Prayer_%28single%29.jpg/250px-Capa_alternativa_de_Like_a_Prayer_%28single%29.jpg",
-      "gradient": ["#1a0505", "#2d0f0f", "#1a0505"],
-      "genre": "Pop",
-      "subgenres": ["Dance-Pop", "R&B", "Gospel"],
-      "description": "Official audio for 'Like a Prayer' by Madonna — 7\" Version. From the album 'Like a Prayer' (1989). One of the best-selling singles of all time, reaching #1 in multiple countries including the US Billboard Hot 100 and UK Singles Chart.",
-      "credits": {
-        "label": "Sire Records / Warner Bros.",
-        "producer": "Patrick Leonard, Madonna",
-        "composer": "Madonna, Patrick Leonard",
-        "mixer": "Shep Pettibone",
-        "mastering": "Sterling Sound",
-        "studio": "Record One Studios, Los Angeles",
-        "director_mv": "Mary Lambert",
-        "choir": "New Life Community Choir feat. Siedah Garrett"
-      },
-      "chart_positions": {
-        "billboard_hot_100": 1,
-        "uk_singles_chart": 1,
-        "australian_singles_chart": 1
-      },
-      "formats": ["7\" Single", "12\" Single", "CD Single", "Cassette Single"],
-      "embed_url_audio": "https://www.youtube.com/embed/PCrnwywJrKg",
-      "embed_url_mv": "https://www.youtube.com/embed/79fzeNUqQbQ",
-      "liked": false,
-      "engagement": { "velocity": 5.12, "like_ratio": 0.025, "trend": "growing" }
     }
   ],
   "films": [
@@ -407,21 +365,18 @@
     "mus_005": [
       { "user": "madonnafan4life", "text": "3 dias e já é o álbum mais ouvido da década! Material Girl é hino 👑", "likes": 12812, "ts": "2 hours ago" }
     ],
-    "mus_006": [
-      { "user": "queenofpopfan", "text": "Like a Prayer é simplesmente a maior música já feita. 285 milhões e contando 🙏🔥", "likes": 54231, "ts": "hoje" }
-    ],
     "film_001": [
       { "user": "sade_soldier", "text": "Que documentário lindo! Sade é simplesmente divina 💎", "likes": 892, "ts": "5 days ago" }
     ]
   },
   "channel_stats": {
     "ch_001": {
-      "total_views": 1608140806,
-      "total_likes": 39812269,
+      "total_views": 1323140806,
+      "total_likes": 32612269,
       "videos_count": 4,
-      "music_count": 2,
+      "music_count": 1,
       "films_count": 0,
-      "singles_count": 1,
+      "singles_count": 0,
       "albums_count": 1,
       "engagement_rate": 0.024
     },
@@ -446,10 +401,9 @@
       "engagement_rate": 0.037
     }
   },
-  "trending": ["mus_003", "vid_003", "mus_006", "mus_005", "vid_004", "vid_005", "mus_002", "film_001", "vid_002"],
+  "trending": ["mus_003", "vid_003", "mus_005", "vid_004", "vid_005", "mus_002", "film_001", "vid_002"],
   "trending_music": [
     "mus_003",
-    "mus_006",
     "mus_005",
     "trk_018",
     "trk_011",
