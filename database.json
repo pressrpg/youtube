@@ -4,7 +4,7 @@
       "id": "ch_001",
       "name": "Madonna",
       "handle": "@madonna",
-      "subscribers": 509283,
+      "subscribers": 90509283,
       "verified": true,
       "description": "Official Madonna YouTube Channel",
       "creation_date": "2005-10-25",
@@ -165,6 +165,24 @@
       "gradient": ["#9b59b6", "#8e44ad", "#6c3483"],
       "liked": false,
       "engagement": { "velocity": 2.94, "like_ratio": 0.019, "trend": "steady" }
+    },
+    {
+      "id": "vid_006",
+      "type": "video",
+      "title": "Madonna - Like A Prayer (Official Video)",
+      "channel_id": "ch_001",
+      "views": 19392392,
+      "likes": 989234,
+      "dislikes": 12456,
+      "upload_date": "2026-04-28",
+      "age": "24 horas",
+      "duration": "5:41",
+      "description": "Official music video for 'Like A Prayer' by Madonna. From the album 'Like A Prayer' (1989). Remastered in stunning HD. Lançado há 24 horas!",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/08/Capa_alternativa_de_Like_a_Prayer_%28single%29.jpg/250px-Capa_alternativa_de_Like_a_Prayer_%28single%29.jpg",
+      "embed_url": "https://www.youtube.com/embed/79fzeNUqQbQ",
+      "gradient": ["#8B4513", "#A0522D", "#D2691E"],
+      "liked": false,
+      "engagement": { "velocity": 9.87, "like_ratio": 0.051, "trend": "viral" }
     }
   ],
   "shorts": [],
@@ -298,6 +316,40 @@
       ],
       "liked": false,
       "engagement": { "velocity": 9.24, "like_ratio": 0.021, "trend": "viral" }
+    },
+    {
+      "id": "mus_006",
+      "type": "single",
+      "title": "Like a Prayer",
+      "artist": "Madonna",
+      "album": "Like a Prayer",
+      "is_single": true,
+      "channel_id": "ch_001",
+      "views": 19392392,
+      "likes": 989234,
+      "dislikes": 12456,
+      "duration": "5:41",
+      "upload_date": "2026-04-28",
+      "release_date": "2026-04-28",
+      "age": "24 horas",
+      "release_status": "released",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/08/Capa_alternativa_de_Like_a_Prayer_%28single%29.jpg/250px-Capa_alternativa_de_Like_a_Prayer_%28single%29.jpg",
+      "gradient": ["#8B4513", "#A0522D", "#D2691E"],
+      "genre": "Pop",
+      "subgenres": ["Pop Rock", "Gospel"],
+      "description": "Single oficial de 'Like A Prayer' remasterizado em HD. Lançado há 24 horas!",
+      "credits": {
+        "label": "Sire Records / Warner Records",
+        "producer": "Madonna, Patrick Leonard",
+        "mixer": "Bill Bottrell",
+        "mastering": "Sterling Sound",
+        "studio": "Johnny Yuma Recording, Burbank"
+      },
+      "tracks": [
+        { "id": "trk_036", "title": "Like a Prayer (7\" Version)", "duration": "5:41", "plays": 19392392, "likes": 989234, "embed_url": "https://www.youtube.com/embed/PCrnwywJrKg" }
+      ],
+      "liked": false,
+      "engagement": { "velocity": 9.87, "like_ratio": 0.051, "trend": "viral" }
     }
   ],
   "films": [
@@ -358,6 +410,10 @@
     "vid_005": [
       { "user": "madonnafan4life", "text": "Papa Don't Preach é uma das músicas mais corajosas da carreira dela. Atemporal.", "likes": 18765, "ts": "3 weeks ago" }
     ],
+    "vid_006": [
+      { "user": "madonnafan4life", "text": "LIKE A PRAYER FINALMENTE! 19 MILHÕES EM 24H! A RAINHA VOLTOU! 👑🙏", "likes": 45231, "ts": "2 hours ago" },
+      { "user": "popemergency", "text": "O clipe mais icônico de todos os tempos agora em HD! Madonna quebrou tudo! 🔥", "likes": 38912, "ts": "5 hours ago" }
+    ],
     "mus_003": [
       { "user": "rockfan_ny", "text": "1.3 BILHÃO! Color of Pain é simplesmente histórico. Álbum da década! 🔥👑", "likes": 89412, "ts": "2 days ago" },
       { "user": "musiccritic_global", "text": "O Bronx redefiniu o rock alternativo com esse álbum. 1.3B é totalmente merecido.", "likes": 67234, "ts": "1 week ago" }
@@ -365,20 +421,24 @@
     "mus_005": [
       { "user": "madonnafan4life", "text": "3 dias e já é o álbum mais ouvido da década! Material Girl é hino 👑", "likes": 12812, "ts": "2 hours ago" }
     ],
+    "mus_006": [
+      { "user": "80sworship", "text": "Like a Prayer em single oficial! 19M em 24h! Isso é HISTÓRICO! 🙌✨", "likes": 34123, "ts": "30 minutes ago" },
+      { "user": "musiclover_global", "text": "A versão 7\" está impecável. Madonna nunca erra! 💿🔥", "likes": 28901, "ts": "1 hour ago" }
+    ],
     "film_001": [
       { "user": "sade_soldier", "text": "Que documentário lindo! Sade é simplesmente divina 💎", "likes": 892, "ts": "5 days ago" }
     ]
   },
   "channel_stats": {
     "ch_001": {
-      "total_views": 1323140806,
-      "total_likes": 32612269,
-      "videos_count": 4,
-      "music_count": 1,
+      "total_views": 1342534398,
+      "total_likes": 33601503,
+      "videos_count": 5,
+      "music_count": 2,
       "films_count": 0,
-      "singles_count": 0,
+      "singles_count": 1,
       "albums_count": 1,
-      "engagement_rate": 0.024
+      "engagement_rate": 0.025
     },
     "ch_002": {
       "total_views": 708880987,
@@ -401,10 +461,12 @@
       "engagement_rate": 0.037
     }
   },
-  "trending": ["mus_003", "vid_003", "mus_005", "vid_004", "vid_005", "mus_002", "film_001", "vid_002"],
+  "trending": ["vid_006", "mus_006", "mus_003", "vid_003", "mus_005", "vid_004", "vid_005", "mus_002", "film_001", "vid_002"],
   "trending_music": [
+    "mus_006",
     "mus_003",
     "mus_005",
+    "trk_036",
     "trk_018",
     "trk_011",
     "trk_035",
