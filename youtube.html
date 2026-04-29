@@ -2624,7 +2624,7 @@ async function loadDB(){
  // SEMPRE busca o JSON remoto primeiro (fonte de verdade)
  // localStorage só é usado como fallback de emergência
  try{
-  const res=await fetch('https://raw.githubusercontent.com/albaplus/youtube/refs/heads/main/database.json?t='+Date.now());
+  const res=await fetch('https://raw.githubusercontent.com/pressrpg/youtube/refs/heads/main/database.json?t='+Date.now());
   if(!res.ok) throw new Error('HTTP '+res.status);
   const fresh=await res.json();
   // Preserva contadores acumulados pelo tick se já tiver dados locais
